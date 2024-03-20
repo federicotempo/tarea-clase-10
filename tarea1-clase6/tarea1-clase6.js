@@ -54,7 +54,7 @@ function crearFormularios(cantidadIntegrantes) {
 
 function limpiarIntegrantes() {
     const $integrante = document.querySelectorAll(".integrante");
-
+ 
 
     for (i = 0; i < $integrante.length; i++) {
         $integrante[i].remove();
